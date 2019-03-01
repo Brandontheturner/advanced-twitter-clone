@@ -1,3 +1,3 @@
-function App(){
-  return <div><Main /></div>
+function App() {
+  return <div className="app" />;
 }

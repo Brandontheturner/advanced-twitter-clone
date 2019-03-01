@@ -1,0 +1,10 @@
+.middle-top {
+  border: 1px solid purple;
+  height: 10vh;
+  width: 100%;
+}
+.middle-bottom {
+  border: 1px solid blue;
+  height: 80vh;
+  width: 100%;
+}

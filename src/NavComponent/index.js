@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import "./NavComponent.css";
+import tNav from "./t-nav.PNG";
 
 class NavComponent extends Component {
   render() {
     return (
       <div className="nav-container">
-        <div className="nav-buttons">
-          <div className="home">Home</div>
-          <div className="moments">Moments</div>
-          <div className="notifications">Notifications</div>
-          <div className="messages">Messages</div>
-        </div>
+        <img src={tNav} alt="Nav Bar" />
       </div>
     );
   }

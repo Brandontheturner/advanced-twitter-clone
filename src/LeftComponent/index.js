@@ -1,16 +1,21 @@
 import React, { Component } from "react";
-import "./ComponentLeft.css";
+import topLeft from "./images/t-top-left.PNG";
+import topMiddle from "./images/t-left-middle.PNG";
+import topBottom from "./images/t-left-bottom.PNG";
 
 class ComponentLeft extends Component {
   render() {
     return (
       <div className="left">
         <div className="left-top">
-          <div className="profile-top">top</div>
-          <div className="profile-middle">middle</div>
-          <div className="profile-bottom">bottom</div>
+          <img src={topLeft} alt="Profile Image" />
         </div>
-        <div className="left-bottom" />
+        <div className="left-middle">
+          <img src={topMiddle} alt="Profile Info" />
+        </div>
+        <div className="left-bottom">
+          <img src={topBottom} alt="Recommend" />
+        </div>
       </div>
     );
   }

@@ -4,6 +4,8 @@
 
 .App {
   height: 100vh;
+  background: #e6ecf0;
+  box-shadow: 3px 5px #e6ecf0;
 }
 .body {
   display: grid;
